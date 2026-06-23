@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: reviewlens
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DEMO_AI_PROVIDER
+        value: groq
+      - key: DEMO_GROQ_API_KEY
+        sync: false
