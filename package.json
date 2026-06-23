@@ -23,7 +23,6 @@
     "zod": "^4.4.3"
   },
   "devDependencies": {
-    "@types/vite": "^5.0.0",
     "typescript": "~6.0.2",
     "@eslint/js": "^10.0.1",
     "@types/node": "^24.12.3",
